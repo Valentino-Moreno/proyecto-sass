@@ -1,0 +1,26 @@
+@import "../utiles/variables";
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        max-width: 140px;
+    }
+    p{
+        color: white;
+        font-size: $tamaño_p;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+    }
+}

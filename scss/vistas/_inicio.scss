@@ -1,0 +1,67 @@
+@import "../utiles/variables";
+
+.hero1 {
+  background-image: url(https://images.pexels.com/photos/6899805/pexels-photo-6899805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 220px 20px 220px 20px;
+    h1{
+        color:white;
+        font-size: $tamo1;
+        text-align: center;
+    }
+    h2{
+        color: white;
+        font-size: $tamo2;
+        text-align: center;
+    }
+  }
+}
+
+.productos{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(54,54,54,0.9416141456582633) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+    h2{
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: $tamo2;
+    }
+    div{
+        max-width: 70%;
+
+        display: flex;
+        flex-wrap: wrap;
+        .tarjeta{
+            margin: 10px;
+            border: none;
+            transition: all 0.5s;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+            &:hover{
+                border-bottom: 5px solid rgb(115,108,220);
+                transform: translateY(-5px);
+            }
+            .pie-tarjeta{
+                background-color: black;
+                display: flex;
+                justify-content: center;
+                max-width: none;
+                h3{
+                    color: white;
+                    font-size: $tamo3;
+                }
+            }
+        }
+    }
+}
