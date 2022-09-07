@@ -1,0 +1,57 @@
+@import "../utiles/variables";
+@import "../componentes/botones";
+
+.contacto{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+    form{
+        h2{
+            @include titulos2;  
+            padding-bottom: 0;
+        }
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 40%;
+        background-color: map-get($colores ,fondo-form);
+        border-radius: 20px;
+        padding-bottom: 20px;
+        div{
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            transition: all 0.5s;
+            &:hover{
+                width: 320px;
+            }
+            label{
+                font-size: $tamaño_a;
+                color: map-get($colores, letras-lab);
+                text-align: center;
+            }
+            input{
+                background-color: map-get($colores ,fondo-form);
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                color: map-get($colores ,blanco);
+                border-bottom: solid 2px rgb(211, 176, 245);
+                transition: all 0.5s;
+                &:hover{
+                    
+                }
+            }
+        }
+    }
+}

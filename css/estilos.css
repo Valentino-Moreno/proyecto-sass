@@ -4,6 +4,9 @@
   padding: 0;
   font-family: 'Oswald', sans-serif; }
 
+a {
+  text-decoration: none; }
+
 header {
   background-color: black;
   display: flex;
@@ -103,3 +106,153 @@ footer {
         .productos div .tarjeta .pie-tarjeta h3 {
           color: white;
           font-size: 1.8em; }
+
+.boton, .boton--productos, .boton--tarjeta {
+  font-size: 2em;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center; }
+
+.boton--productos {
+  background-color: rgba(98, 33, 100, 0.76);
+  border: none;
+  color: white;
+  margin-top: 20px; }
+
+.boton--tarjeta {
+  font-size: 1.4em;
+  background-color: blueviolet;
+  border: none; }
+  .boton--tarjeta:hover {
+    background-color: #503768; }
+
+.boton, .boton--productos, .boton--tarjeta {
+  font-size: 2em;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center; }
+
+.boton--productos {
+  background-color: rgba(98, 33, 100, 0.76);
+  border: none;
+  color: white;
+  margin-top: 20px; }
+
+.boton--tarjeta {
+  font-size: 1.4em;
+  background-color: blueviolet;
+  border: none; }
+  .boton--tarjeta:hover {
+    background-color: #503768; }
+
+.productos2 {
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .productos2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding: 20px;
+    padding-top: 10px; }
+  .productos2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: wheat; }
+    .productos2 div .tar {
+      margin: 20px;
+      background-color: black;
+      border: none;
+      display: flex; }
+      .productos2 div .tar .tar2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+
+.boton, .boton--productos, .boton--tarjeta {
+  font-size: 2em;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center; }
+
+.boton--productos {
+  background-color: rgba(98, 33, 100, 0.76);
+  border: none;
+  color: white;
+  margin-top: 20px; }
+
+.boton--tarjeta {
+  font-size: 1.4em;
+  background-color: blueviolet;
+  border: none; }
+  .boton--tarjeta:hover {
+    background-color: #503768; }
+
+.contacto {
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; }
+  .contacto form {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+    background-color: #023047;
+    border-radius: 20px;
+    padding-bottom: 20px; }
+    .contacto form h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: 3em;
+      padding: 20px;
+      padding-bottom: 0; }
+    .contacto form div {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      transition: all 0.5s; }
+      .contacto form div:hover {
+        width: 320px; }
+      .contacto form div label {
+        font-size: 1.4em;
+        color: #a762e7;
+        text-align: center; }
+      .contacto form div input {
+        background-color: #023047;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: white;
+        border-bottom: solid 2px #d3b0f5;
+        transition: all 0.5s; }

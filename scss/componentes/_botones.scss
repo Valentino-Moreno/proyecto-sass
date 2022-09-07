@@ -1,0 +1,26 @@
+.boton{
+    font-size: 2em;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton--productos{
+    @extend.boton;
+    background-color: rgba(98, 33, 100, 0.76);
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.boton--tarjeta{
+    @extend.boton;
+    font-size: 1.4em;
+    background-color: blueviolet;
+    border: none;
+    &:hover{
+        background-color: rgb(80, 55, 104);
+    }
+
+}
